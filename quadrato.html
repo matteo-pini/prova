@@ -1,0 +1,49 @@
+<html>
+<head>
+   <script src="jquery.js"> </script>
+
+  <style>
+
+  #quadrato {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+
+  }
+#quadrato.left {
+  transition: 1s all;
+  top: 33vh;
+  left: 33vw;
+}
+#quadrato.right {
+  transition: 1s all;
+  top: 33vh;
+  left: 77vw;
+}
+#quadrato.bottom {
+  transition: 1s all;
+  top: 77vh;
+  left: 77vw;
+}
+
+#quadrato.bottomleft {
+  transition: 1s all;
+  top: 77vh;
+  left: 33vw;
+}
+
+  </style>
+</head>
+
+<body>
+
+
+  <div id="quadrato" class=left> </div>
+<script src="spostamento.js"> </script>
+
+</body>
+
+
+
+</html>
