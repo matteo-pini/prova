@@ -659,8 +659,9 @@ figure.box4:hover h2 {
   width: 100%;
   background-color: #2f2f2f;
   position: absolute;
-  margin-top: 60%;
+  top: 100%;
 }
+
 .Gscozia {
  width: 60%;
  height: 60%;
@@ -669,7 +670,7 @@ figure.box4:hover h2 {
  /* margin-left: 35%;
  margin-top: 20%; */
  left: 50%;
- transform: translate(-50%, 50%);
+ transform: translate(-50%, 35%);
 }
 
 .mySlides {
@@ -680,8 +681,26 @@ figure.box4:hover h2 {
 .ga2 {
   font-family: 'Poppins', sans-serif;
   color: #A2A2A2;
-  font-size: 230%;
-  margin-left: 45%;
-  padding-top: 6%;
+  font-size: 330%;
+  left: 50%;
+  transform: translate(-50%, 45%);
   position: absolute;
+}
+
+.frecciaD {
+  width: 2%;
+  height: 5%;
+  position: absolute;
+  top: 48%;
+  right: 15%;
+  transform: rotate(-90deg);
+}
+
+.frecciaS {
+  width: 2%;
+  height: 5%;
+  position: absolute;
+  top: 48%;
+  left: 15%;
+  transform: rotate(90deg);
 }
