@@ -443,61 +443,63 @@ html {
 }
 
 .ga {
+  width: auto;
+  margin: auto;
   font-family: 'Poppins', sans-serif;
   color: white;
-  font-size: 250%;
-  position: absolute;
-  top: -3%;
-  left: 50%;
-  transform: translate(-50%, 35%);
+  font-size: 3vw;
+  text-align: center;
 }
 
 .ga1 {
   font-family: 'Poppins', sans-serif;
   color: #A2A2A2;
-  font-size: 200%;
-  padding-top: 3%;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 35%);
+  font-size: 2vw;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
 }
 .box1 {
   background-color: white;
-  width: 27%;
-  height: 28%;
+  width: 27vw;
+  height: 18.5vw;
   position:absolute;
   left: 18.9%;
   top: 24%;
   overflow: hidden;
+  cursor: pointer;
 }
 
 
 .box2 {
   background-color: white;
-  width: 27%;
-  height: 28%;
+  width: 27vw;
+  height: 18.5vw;
   position:absolute;
   left: 48.9%;
   top: 24%;
   overflow: hidden;
+  cursor: pointer;
 }
 .box3 {
   background-color: white;
-  width: 27%;
-  height: 28%;
+  width: 27vw;
+  height: 18.5vw;
   position:absolute;
   left: 18.9%;
   top: 57%;
   overflow: hidden;
+  cursor: pointer;
 }
 .box4 {
   background-color: white;
-  width: 27%;
-  height: 28%;
+  width: 27vw;
+  height: 18.5vw;
   position:absolute;
   left: 48.9%;
   top: 57%;
   overflow: hidden;
+  cursor: pointer;
 }
 .S {
   overflow: hidden;
@@ -528,7 +530,7 @@ object-fit: fill;
   margin-left: 10%;
   margin-top: 45%;
   color: white;
-  font-size: 180%;
+  font-size: 1.5vw;
 }
 
 
@@ -665,9 +667,17 @@ figure.box4:hover h2 {
   top: 100%;
 }
 
+.separatore {
+  width: 2%;
+  height: 5%;
+  position: absolute;
+  top: 48%;
+  left: 15%;
+}
+
 .Gscozia {
- width: 60%;
- height: 60%;
+ width: 60vw;
+ height: 35vw;
  position: absolute;
  background-color: white;
  /* margin-left: 35%;
@@ -684,7 +694,7 @@ figure.box4:hover h2 {
 .ga2 {
   font-family: 'Poppins', sans-serif;
   color: #A2A2A2;
-  font-size: 330%;
+  font-size: 3vw;
   left: 50%;
   transform: translate(-50%, 45%);
   position: absolute;
@@ -697,6 +707,7 @@ figure.box4:hover h2 {
   top: 48%;
   right: 15%;
   transform: rotate(-90deg);
+  cursor: pointer;
 }
 
 .frecciaS {
@@ -706,6 +717,7 @@ figure.box4:hover h2 {
   top: 48%;
   left: 15%;
   transform: rotate(90deg);
+  cursor: pointer;
 }
 
 .sfondo4 {
@@ -716,8 +728,8 @@ figure.box4:hover h2 {
   top: 200%;
 }
 .Glondra {
-  width: 60%;
-  height: 60%;
+  width: 60vw;
+  height: 35vw;
   position: absolute;
   background-color: white;
   /* margin-left: 35%;
@@ -728,7 +740,7 @@ figure.box4:hover h2 {
 .ga3 {
   font-family: 'Poppins', sans-serif;
   color: #A2A2A2;
-  font-size: 330%;
+  font-size: 3vw;
   left: 50%;
   transform: translate(-50%, 45%);
   position: absolute;
@@ -747,8 +759,8 @@ figure.box4:hover h2 {
   top: 300%;
 }
 .Gnatura {
-  width: 60%;
-  height: 60%;
+  width: 60vw;
+  height: 35vw;
   position: absolute;
   background-color: white;
   /* margin-left: 35%;
@@ -759,7 +771,7 @@ figure.box4:hover h2 {
 .ga4 {
   font-family: 'Poppins', sans-serif;
   color: #A2A2A2;
-  font-size: 330%;
+  font-size: 3vw;
   left: 50%;
   transform: translate(-50%, 45%);
   position: absolute;
@@ -778,8 +790,8 @@ figure.box4:hover h2 {
   top: 400%;
 }
 .Ggraffiti {
-  width: 60%;
-  height: 60%;
+  width: 60vw;
+  height: 35vw;
   position: absolute;
   background-color: white;
   /* margin-left: 35%;
@@ -790,7 +802,7 @@ figure.box4:hover h2 {
 .ga5 {
   font-family: 'Poppins', sans-serif;
   color: #A2A2A2;
-  font-size: 330%;
+  font-size: 3vw;
   left: 50%;
   transform: translate(-50%, 45%);
   position: absolute;
