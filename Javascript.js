@@ -70,3 +70,9 @@ function showDivy(p) {
     }
     t[slideIndex-1].style.display = "block";
 }
+
+$(window).on('load',scompare);
+
+function scompare() {
+  $ ("#caricato, .inizio").fadeOut(400);
+};
