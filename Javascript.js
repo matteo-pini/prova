@@ -71,8 +71,9 @@ function showDivy(p) {
     t[slideIndex-1].style.display = "block";
 }
 
-$(window).on('load',scompare);
 
 function scompare() {
-  $ ("#caricato, .bianco").fadeOut(400);
+  $ ("#caricato, .loader").fadeOut(400);
 };
+
+$(window).on('load',scompare);

@@ -355,10 +355,6 @@ html {
   to { opacity: 0.0; }
 }
 
-@keyframes fadeOut {
-  from { z-index: 11;}
-  to { z-index: 0;}
-}
 
 
 
@@ -457,7 +453,7 @@ html {
   background-color: black;
   opacity: 0.0;
   z-index: 10;
-  animation: pulse 3s linear 0s infinite;
+  animation: pulse 4s linear 0s infinite;
   -webkit-animation-iteration-count: 1;
 }
 
@@ -477,8 +473,7 @@ html {
   z-index: -1;
 }
 
-/*animation: pulse 3s linear 0s infinite alternate;
--webkit-animation-iteration-count: 1;*/
+
 
 .loader,
 .loader:before,
@@ -489,6 +484,8 @@ html {
   width: 1em;
   height: 4em;
 }
+
+
 .loader {
   z-index: 11;
   color: #ffffff;
@@ -543,6 +540,8 @@ html {
     height: 5em;
   }
 }
+
+
 
 
 
