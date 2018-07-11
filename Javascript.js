@@ -73,7 +73,7 @@ function showDivy(p) {
 
 
 function scompare() {
-  $ ("#caricato, .loader").fadeOut(400);
+  $ ("#ciao, .loader").fadeOut(400);
 };
 
 $(window).on('load',scompare);
