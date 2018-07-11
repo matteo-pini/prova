@@ -72,8 +72,8 @@ function showDivy(p) {
 }
 
 
-function scompare() {
-  $ ("#ciao, .loader").fadeOut(400);
-};
-
-$(window).on('load',scompare);
+document.getElementById("ciao").className="loader";
+var hide=function(){document.getElementById("ciao").className="loader"};
+var oldLoad=window.onload;var newLoad=oldLoad?function(){hide.call(this);
+  oldLoad.call(this)}:hide;
+  window.onload=newLoad;
