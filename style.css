@@ -373,15 +373,7 @@ html {
 
 }
 
-#img {
 
-  padding: 0px;
-  margin: 0px;
-  width: 100%;
-  height: 90%;
-
-
-}
 
 .barranavigazione {
     background-color: #333;
@@ -434,6 +426,75 @@ html {
   display: flex;
   justify-content: space-around;
 }
+
+.fisso {
+  width: 100%;
+  height: 10%;
+  position: fixed;
+}
+
+.img {
+  width: 100vw;
+  height: 65vw;
+  position: fixed;
+  background: transparent url('http://thinkfuture.com/wp-content/uploads/2013/10/loading_spinner.gif') center no-repeat;
+
+}
+
+.scorre {
+  width: 100%;
+  height: 300%;
+  background-color: grey;
+  top: 110%;
+  position: absolute;
+}
+.spaziatore {
+  width: 100%;
+  height: 60%;
+  top: 450%;
+  background-color: lightblue;
+  position: absolute;
+  z-index: -1;
+}
+
+.lds-dual-ring {
+  position: absolute;
+  display: inline-block;
+  width: 7vw;
+  height: 7vw;
+  z-index: 1;
+  left: 50%;
+  transform: translate(-50%, 380%);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
 
 .sfondo2 {
   height: 120%;
