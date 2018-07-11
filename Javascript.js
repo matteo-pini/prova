@@ -70,10 +70,3 @@ function showDivy(p) {
     }
     t[slideIndex-1].style.display = "block";
 }
-
-
-document.getElementById("ciao").className="loader";
-var hide=function(){document.getElementById("ciao").className="loader"};
-var oldLoad=window.onload;var newLoad=oldLoad?function(){hide.call(this);
-  oldLoad.call(this)}:hide;
-  window.onload=newLoad;
