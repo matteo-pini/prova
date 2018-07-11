@@ -439,6 +439,20 @@ html {
   position: fixed;
 }
 
+.image-loader {
+  background: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden !important;
+  height: 0;
+  position: relative;
+  img {
+    position: absolute;
+  }
+}
+
 .scorre {
   width: 100%;
   height: 300%;
