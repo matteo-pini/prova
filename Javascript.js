@@ -74,5 +74,5 @@ function showDivy(p) {
 $(window).on('load',scompare);
 
 function scompare() {
-  $ ("#caricato, .inizio").fadeOut(400);
+  $ ("#caricato, .bianco").fadeOut(400);
 };
