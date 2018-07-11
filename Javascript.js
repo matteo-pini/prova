@@ -70,3 +70,13 @@ function showDivy(p) {
     }
     t[slideIndex-1].style.display = "block";
 }
+
+
+
+
+
+$(document).ready(function () {
+        $('#io').on('load', function () {
+            $('#loader1').hide();
+        });
+    });
