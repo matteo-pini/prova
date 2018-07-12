@@ -461,16 +461,16 @@ html {
   font-size: 3vw;
   position: absolute;
   font-family: 'Roboto Light',sans-serif;
-  top: 30%;
-  left: 9.5%;
+  top: 60%;
+  left: 10%;
   color: white;
 }
 .lista2 {
   font-size: 3vw;
   position: absolute;
   font-family: 'Roboto Light',sans-serif;
-  top: 50%;
-  left: 9.5%;
+  top: 65%;
+  left: 25%;
   color: white;
 }
 .lista3 {
@@ -478,7 +478,7 @@ html {
   position: absolute;
   font-family: 'Roboto Light',sans-serif;
   top: 70%;
-  left: 9.5%;
+  left: 40%;
   color: white;
 }
 
