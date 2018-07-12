@@ -482,6 +482,39 @@ html {
   color: white;
 }
 
+.lista4 {
+  font-size: 1vw;
+  position: absolute;
+  font-family: 'Roboto Light',sans-serif;
+  top: 95%;
+  left: 10%;
+  color: white;
+  border-bottom: 2px solid #D2D2D2;
+  cursor: pointer;
+}
+
+.lista5 {
+  font-size: 1vw;
+  position: absolute;
+  font-family: 'Roboto Light',sans-serif;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  border-bottom: 2px solid #D2D2D2;
+  cursor: pointer;
+}
+
+.lista6 {
+  font-size: 1vw;
+  position: absolute;
+  font-family: 'Roboto Light',sans-serif;
+  top: 95%;
+  left: 78%;
+  color: white;
+  border-bottom: 2px solid #D2D2D2;
+}
+
 .chi {
   width:45vw;
   font-size: 1vw;
@@ -498,7 +531,7 @@ html {
   font-size: 1vw;
   position: absolute;
   font-family: 'Roboto Light',sans-serif;
-  top: 86%;
+  top: 85.5%;
   left: 50%;
   transform: translate(-45%);
   color: white;
@@ -599,7 +632,7 @@ html {
   position: absolute;
   top: 89%;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(-50% , -89%);
 }
 
 .ve {
@@ -1075,7 +1108,7 @@ figure.box4:hover h2 {
 .GG {
   position: absolute;
   left: 50%;
-  transform: translate(-49%);
+  transform: translate(-49% , -2%);
   top: 36%;
 }
 
@@ -1098,7 +1131,8 @@ figure.box4:hover h2 {
 
 .gallery > div > img {
   display: block;
-  width: 400px;
+  width: 25vw;
+  height: 16.5vw;
   transition: .1s transform;
   transform: translateZ(0);
 }
