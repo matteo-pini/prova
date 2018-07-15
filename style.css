@@ -470,7 +470,7 @@ html {
   position: absolute;
   font-family: 'Roboto Light',sans-serif;
   top: 65%;
-  left: 25%;
+  left: 24%;
   color: white;
 }
 .lista3 {
@@ -628,7 +628,7 @@ html {
 }
 
 .separatore2 {
-  z-index: 3;
+  z-index: 15;
   width: 80vw;
   height: 1.5vw;
   position: absolute;
@@ -1114,12 +1114,20 @@ figure.box4:hover h2 {
   top: 36%;
 }
 
+.decorazione {
+  position: absolute;
+  max-width: 100%;
+  max-height: 102%;
+  left: 50%;
+  transform: translate(-50%);
+  top: 34%;
+}
 
 
 
 .gallery {
-  max-width: 98%;
-  max-height: 60%;
+  max-width: 100%;
+  max-height: 70%;
   margin: 0 auto;
   padding: 5px;
   background: #D2D2D2;
@@ -1132,7 +1140,7 @@ figure.box4:hover h2 {
 }
 
 .gallery > div > img {
-  display: block;
+  display: inline-block;
   width: 25vw;
   height: 16.5vw;
   transition: .1s transform;
